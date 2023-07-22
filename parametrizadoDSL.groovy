@@ -1,7 +1,7 @@
 job('MiSegundoTrabajo') {
     description('Este es un trabajo creado con Job DSL')
   	scm {
-        git ('https://github.com/macloujulian/jenkins.job.parametrizado.git', 'main') {
+        git ('https://github.com/robertfox11/jenkins.job.parametrizado.git', 'main') {
       		node / gitConfigName('roberfox11')
       		node / gitConfigEmail('11rsahome@gmail.com')
         }
