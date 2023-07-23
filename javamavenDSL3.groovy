@@ -1,4 +1,4 @@
-job('Java Maven App DSL 3') {
+job('Java Maven App DSL') {
     description('Java Maven App con DSL para el curso de Jenkins')
     scm {
       	git('https://github.com/robertfox11/jenkins.job.parametrizado.git', 'main') { node ->
